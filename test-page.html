@@ -12,7 +12,7 @@
   <meta property="og:url" content="https://teemuthpr.github.io/midnighttee-website/test-page.html" />
   <meta name="twitter:card" content="summary_large_image" />
 
-  <!-- Google Fonts -->
+  <!-- Fonts -->
   <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@700&family=Inter:wght@300;500;700&display=swap" rel="stylesheet">
 
   <!-- Styles -->
@@ -35,28 +35,6 @@
       overflow-x: hidden;
     }
 
-    .floating-moon {
-      position: fixed;
-      top: 30px;
-      left: 50%;
-      transform: translateX(-50%);
-      z-index: 1;
-      animation: floatMoon 6s ease-in-out infinite;
-      pointer-events: none;
-    }
-
-    .floating-moon img {
-      width: 100px;
-      opacity: 0.8;
-      filter: drop-shadow(0 0 12px rgba(255, 216, 102, 0.5));
-    }
-
-    @keyframes floatMoon {
-      0% { transform: translateX(-50%) translateY(0); }
-      50% { transform: translateX(-50%) translateY(-15px); }
-      100% { transform: translateX(-50%) translateY(0); }
-    }
-
     .hero {
       background: rgba(255, 255, 255, 0.05);
       border-radius: 20px;
@@ -67,9 +45,6 @@
       width: 90%;
       text-align: center;
       animation: fadeIn 1.2s ease-in-out;
-      z-index: 2;
-      position: relative;
-      margin-top: 150px;
     }
 
     @keyframes fadeIn {
@@ -119,11 +94,9 @@
     }
 
     footer {
-      margin: 60px 0 30px;
+      margin-top: 40px;
       font-size: 0.9em;
       color: #888;
-      z-index: 2;
-      position: relative;
     }
 
     @media (max-width: 600px) {
@@ -139,12 +112,6 @@
 </head>
 <body>
 
-  <!-- Floating Moon Element -->
-  <div class="floating-moon">
-    <img src="floating-moon.png" alt="Floating Moon">
-  </div>
-
-  <!-- Hero Content -->
   <main class="hero">
     <img src="midnight-tee-logo-full.png" alt="Midnight Tee Podcast Logo">
     <h1>Midnight Tee Podcast</h1>
