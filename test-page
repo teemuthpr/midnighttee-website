@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Midnight Tee Test Page</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <!-- Embed Metadata -->
+  <meta property="og:title" content="Midnight Tee Podcast" />
+  <meta property="og:description" content="Streaming late-night stories, music & AI creativity." />
+  <meta property="og:image" content="https://teemuthpr.github.io/midnighttee-website/midnight-tee-logo-full.png" />
+  <meta property="og:url" content="https://teemuthpr.github.io/midnighttee-website/test-page.html" />
+  <meta name="twitter:card" content="summary_large_image" />
+
+  <style>
+    body {
+      margin: 0;
+      padding: 0;
+      background-color: #0a0a1a;
+      color: #FFD866;
+      font-family: 'Georgia', serif;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      text-align: center;
+    }
+
+    img.logo {
+      margin-top: 40px;
+      max-width: 300px;
+      border-radius: 12px;
+      box-shadow: 0 0 40px rgba(255, 204, 51, 0.25);
+    }
+
+    h1 {
+      font-size: 2.5em;
+      margin: 20px 0 10px;
+    }
+
+    p {
+      font-size: 1.2em;
+      max-width: 600px;
+      color: #FFDA99;
+    }
+
+    .btn {
+      background-color: #FFD866;
+      color: #0a0a1a;
+      font-weight: bold;
+      padding: 12px 24px;
+      margin: 20px 10px;
+      text-decoration: none;
+      border-radius: 8px;
+      box-shadow: 0 0 15px rgba(255, 216, 102, 0.3);
+      transition: background 0.2s ease;
+    }
+
+    .btn:hover {
+      background-color: #FFCC33;
+    }
+
+    footer {
+      margin-top: 50px;
+      font-size: 0.9em;
+      color: #888;
+    }
+  </style>
+</head>
+<body>
+
+  <img src="midnight-tee-logo-full.png" alt="Midnight Tee Logo" class="logo">
+
+  <h1>Midnight Tee Podcast</h1>
+  <p>Where late-night dreams meet AI rhythm. Tune in to the stream, and join the inner circle.</p>
+
+  <div>
+    <a class="btn" href="https://www.twitch.tv/midnight_teemuth" target="_blank">🎙 Watch on Twitch</a>
+    <a class="btn" href="https://midnight-tee.beehiiv.com/subscribe" target="_blank">📬 Join the Newsletter</a>
+  </div>
+
+  <footer>
+    &copy; 2025 Midnight Tee. All rights reserved.
+  </footer>
+
+</body>
+</html>
